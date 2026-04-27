@@ -55,70 +55,70 @@ All the unzipped files are written by me and within the zip file, there are a fe
 ## Sample Output from Testbench
 
 Pass, address 0 read correctly on port A.  
-Pass, address 0 read correctly on port B.
-Pass, address 1 read correctly on port A.
-Pass, address 1 read correctly on port B.
-Pass, address 2 read correctly on port A.
-Pass, address 2 read correctly on port B.
-Pass, address 3 read correctly on port A.
-Pass, address 3 read correctly on port B.
-Pass, address 4 read correctly on port A.
-Pass, address 4 read correctly on port B.
-Pass, address 5 read correctly on port A.
-Pass, address 5 read correctly on port B.
-Pass, address 6 read correctly on port A.
-Pass, address 6 read correctly on port B.
-Pass, address 7 read correctly on port A.
-Pass, address 7 read correctly on port B.
-Pass, address 8 read correctly on port A.
-Pass, address 8 read correctly on port B.
-Pass, address 9 read correctly on port A.
-Pass, address 9 read correctly on port B.
-Pass, address 10 read correctly on port A.
-Pass, address 10 read correctly on port B.
-Pass, address 11 read correctly on port A.
-Pass, address 11 read correctly on port B.
-Pass, address 12 read correctly on port A.
-Pass, address 12 read correctly on port B.
-Pass, address 13 read correctly on port A.
-Pass, address 13 read correctly on port B.
-Pass, address 14 read correctly on port A.
-Pass, address 14 read correctly on port B.
-Pass, address 15 read correctly on port A.
-Pass, address 15 read correctly on port B.
-Pass, simultaneous read port A correct.
-Pass, simultaneous read port B correct.
-Pass, reset lights zo LED.
-WRITE 05 to ADDR 0
-Pass, ALU output 00000101.
-run all
-WRITE 35 to ADDR 1
-Pass, ALU output 00110101.
-WRITE 11 to ADDR 8
-Pass, ALU output 00010001.
-WRITE 88 to ADDR 15
-Pass, ALU output 10001000.
-RD=0, WR=1, EXPECT 0011_1010, Flags: 0 0 0
-Pass, ALU output 00111010.
-Pass, co LED correct.
-Pass, zo LED correct.
-Pass, no LED correct.
-RD=8, WR=15, EXPECT 1001_1001, Flags: 0 0 1
-Pass, ALU output 10011001.
-Pass, co LED correct.
-Pass, zo LED correct.
-Pass, no LED correct.
-RD=1, WR=8, EXPECT 0100_0110
-Pass, ALU output 01000110.
-RD=15, WR=0, EXPECT 1000_1101, Flags: 0 0 1
-Pass, ALU output 10001101.
-Pass, co LED correct.
-Pass, zo LED correct.
-Pass, no LED correct.
-RD=15, WR=15 EXPECT 0001_0000, Flags: 1 0 0
-Pass, ALU output 00010000.
-Pass, co LED correct.
-Pass, zo LED correct.
-Pass, no LED correct.
-PASS, no errors found
+Pass, address 0 read correctly on port B.  
+Pass, address 1 read correctly on port A.  
+Pass, address 1 read correctly on port B.  
+Pass, address 2 read correctly on port A.  
+Pass, address 2 read correctly on port B.  
+Pass, address 3 read correctly on port A.  
+Pass, address 3 read correctly on port B.  
+Pass, address 4 read correctly on port A.  
+Pass, address 4 read correctly on port B.  
+Pass, address 5 read correctly on port A.  
+Pass, address 5 read correctly on port B.  
+Pass, address 6 read correctly on port A.  
+Pass, address 6 read correctly on port B.  
+Pass, address 7 read correctly on port A.  
+Pass, address 7 read correctly on port B.  
+Pass, address 8 read correctly on port A.  
+Pass, address 8 read correctly on port B.  
+Pass, address 9 read correctly on port A.  
+Pass, address 9 read correctly on port B.  
+Pass, address 10 read correctly on port A.  
+Pass, address 10 read correctly on port B.  
+Pass, address 11 read correctly on port A.  
+Pass, address 11 read correctly on port B.  
+Pass, address 12 read correctly on port A.  
+Pass, address 12 read correctly on port B.  
+Pass, address 13 read correctly on port A.  
+Pass, address 13 read correctly on port B.  
+Pass, address 14 read correctly on port A.  
+Pass, address 14 read correctly on port B.  
+Pass, address 15 read correctly on port A.  
+Pass, address 15 read correctly on port B.  
+Pass, simultaneous read port A correct.  
+Pass, simultaneous read port B correct.  
+Pass, reset lights zo LED.  
+WRITE 05 to ADDR 0  
+Pass, ALU output 00000101.  
+run all  
+WRITE 35 to ADDR 1  
+Pass, ALU output 00110101.  
+WRITE 11 to ADDR 8  
+Pass, ALU output 00010001.  
+WRITE 88 to ADDR 15  
+Pass, ALU output 10001000.  
+RD=0, WR=1, EXPECT 0011_1010, Flags: 0 0 0  
+Pass, ALU output 00111010.  
+Pass, co LED correct.  
+Pass, zo LED correct. 
+Pass, no LED correct. 
+RD=8, WR=15, EXPECT 1001_1001, Flags: 0 0 1  
+Pass, ALU output 10011001.  
+Pass, co LED correct.  
+Pass, zo LED correct.  
+Pass, no LED correct.  
+RD=1, WR=8, EXPECT 0100_0110  
+Pass, ALU output 01000110.  
+RD=15, WR=0, EXPECT 1000_1101, Flags: 0 0 1  
+Pass, ALU output 10001101.  
+Pass, co LED correct.  
+Pass, zo LED correct.  
+Pass, no LED correct.  
+RD=15, WR=15 EXPECT 0001_0000, Flags: 1 0 0  
+Pass, ALU output 00010000.  
+Pass, co LED correct.  
+Pass, zo LED correct.  
+Pass, no LED correct.  
+PASS, no errors found  
 $finish called at time : 1305 ns : File "C:/Users/shh/Documents/vivado/aluprojectp3/aluprojectp1.srcs/sim_1/new/reg_file_tb.sv" Line 359
