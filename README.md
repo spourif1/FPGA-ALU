@@ -121,4 +121,3 @@ Pass, co LED correct.
 Pass, zo LED correct.  
 Pass, no LED correct.  
 PASS, no errors found  
-$finish called at time : 1305 ns : File "C:/Users/shh/Documents/vivado/aluprojectp3/aluprojectp1.srcs/sim_1/new/reg_file_tb.sv" Line 359
